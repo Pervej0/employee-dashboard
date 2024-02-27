@@ -15,10 +15,10 @@ const ManageEmployee = () => {
         <Table.Body className="divide-y">
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-              {'Apple MacBook Pro 17"'}
+              Md Pervej Hossain
             </Table.Cell>
-            <Table.Cell>Sliver</Table.Cell>
-            <Table.Cell>Laptop</Table.Cell>
+            <Table.Cell>Full Stack Web Developer</Table.Cell>
+            <Table.Cell>mdpervejhossain0@gmail.com</Table.Cell>
             <Table.Cell>$2999</Table.Cell>
             <Table.Cell>
               <a
@@ -31,11 +31,11 @@ const ManageEmployee = () => {
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-              Microsoft Surface Pro
+              Jhon Doe
             </Table.Cell>
-            <Table.Cell>White</Table.Cell>
-            <Table.Cell>Laptop PC</Table.Cell>
-            <Table.Cell>$1999</Table.Cell>
+            <Table.Cell>Board Of Member</Table.Cell>
+            <Table.Cell>jhon@gmail.com</Table.Cell>
+            <Table.Cell>$5999</Table.Cell>
             <Table.Cell>
               <a
                 href="#"
@@ -47,11 +47,11 @@ const ManageEmployee = () => {
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
             <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-              Magic Mouse 2
+              Jerin Khan
             </Table.Cell>
-            <Table.Cell>Black</Table.Cell>
-            <Table.Cell>Accessories</Table.Cell>
-            <Table.Cell>$99</Table.Cell>
+            <Table.Cell>Graphic Designer</Table.Cell>
+            <Table.Cell>jerin#gmail.com</Table.Cell>
+            <Table.Cell>$2999</Table.Cell>
             <Table.Cell>
               <a
                 href="#"

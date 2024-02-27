@@ -9,8 +9,8 @@ const MainNavbar = () => {
           Softypy Admin
         </span>
       </Navbar.Brand>
-      <div className="flex md:order-2 pr-6">
-        <button className="">
+      <div className="pr-6">
+        <button>
           <FaUserCircle size={30} />
         </button>
       </div>
