@@ -1,20 +1,23 @@
-import { Navbar } from "flowbite-react";
 import { FaUserCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const MainNavbar = () => {
   return (
-    <Navbar fluid rounded className="border py-3">
-      <Navbar.Brand>
-        <span className="pl-6 self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+    <div className="border py-3 rounded flex justify-between">
+      <div>
+        <Link
+          to="/"
+          className="pl-6 self-center whitespace-nowrap text-2xl font-semibold dark:text-white"
+        >
           Softypy Admin
-        </span>
-      </Navbar.Brand>
+        </Link>
+      </div>
       <div className="pr-6">
         <button>
           <FaUserCircle size={30} />
         </button>
       </div>
-    </Navbar>
+    </div>
   );
 };
 
